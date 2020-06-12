@@ -14,7 +14,7 @@ int main(void)
 		{
 		putchar(num2 + 48);
 		putchar(num1 + 48);
-		if (num2 <= 9 && num1 <= 9)
+		if (num2 != 9 || num1 != 9)
 		{
 			putchar(',');
 			putchar(' ');

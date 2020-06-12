@@ -42,3 +42,4 @@ The program prints all the possible combinations of single-digit numbers.
 
 # 10-print_comb2.c
 
+The program writes the numbers from **00** to **99**.
