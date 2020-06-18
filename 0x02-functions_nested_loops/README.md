@@ -47,3 +47,7 @@ The function adds two numbers (**integers**) and return the value.
 # 11-print_to_98.c
 
 The function prints all natural numbers from **n** to **98**.
+
+# 100-times_table.c
+
+The function prints n times table, starting with **0**.
