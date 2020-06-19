@@ -51,3 +51,7 @@ The function prints all natural numbers from **n** to **98**.
 # 100-times_table.c
 
 The function prints n times table, starting with **0**.
+
+# 101-natural.c
+
+The program prints the sum of all multiples of **3** or **5** below 1024.
