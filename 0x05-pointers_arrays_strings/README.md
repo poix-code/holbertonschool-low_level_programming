@@ -24,4 +24,12 @@ The function prints a string in reverse.
 
 The function prints a normal string and the same string in reverse.
 
-## 
+## 6-puts2.c
+
+The function prints every other character of a string, starting with the first chatacter.
+
+## 7-puts_half.c
+
+The function prints half of a string.
+
+##
