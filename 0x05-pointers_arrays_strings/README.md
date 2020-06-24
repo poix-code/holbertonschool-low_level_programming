@@ -32,4 +32,10 @@ The function prints every other character of a string, starting with the first c
 
 The function prints half of a string.
 
-##
+## 8-print_array.c
+
+The function prints **n** elements of an array of integers.
+
+## 9-strcpy.c
+
+The function copies the string of a pointer, including the **'\0'** to other pointer.
