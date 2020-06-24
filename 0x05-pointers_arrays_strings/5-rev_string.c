@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include <stdio.h>
 
 /**
  * rev_string - The funcion rev a string.
@@ -7,29 +7,19 @@
  */
 void rev_string(char *s)
 {
-	char temp;
-	int i, length;
+	int tmp;
+	int i, j;
 
-	length =  _strlen(s) - 1;
-	for (i = 0; i < length; i++)
+	while (s[i] != '\0')
 	{
-		temp = s[length];
-		s[length] = s[i];
-		s[i] = temp;
-		length--;
+		i++;
 	}
-}
-
-/**
- * _strlen - The function returns the length of a string.
- * @s: Variable of the string.
- * Return: integer value.
- */
-int _strlen(char *s)
-{
-	int length;
-
-	for (length = 0; s[length] != '\0'; length++)
-		;
-	return (length);
+	i = i - 1;
+	for (j = 0; j < i; j++)
+	{
+		tmp = s[j];
+		s[j] = s[i];
+		s[i] = tmp;
+		i--;
+	}
 }
