@@ -7,14 +7,29 @@
  */
 void print_rev(char *s)
 {
-	int i, j, k;
+	int i, length;
 
-	for (i = 0; s[i] != '\0'; i++)
-		k = i - 1;
-	for (j = 0; j <= i - 1; j++)
+	length = _strlen(s);
+	for (i = length; s[i] >= 0; i--)
 	{
-		k--;
-		_putchar(s[k]);
+		if (i >= 0 && i <= length - 1)
+		{
+			_putchar(s[i]);
+		}
 	}
 	_putchar('\n');
+}
+
+/**
+ * _strlen - The function returns the length of a string.
+ * @s: Variable of the string.
+ * Return: integer value.
+ */
+int _strlen(char *s)
+{
+	int length;
+
+	for (length = 0; s[length] != '\0'; length++)
+		;
+	return (length);
 }
