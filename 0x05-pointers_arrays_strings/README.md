@@ -39,3 +39,7 @@ The function prints **n** elements of an array of integers.
 ## 9-strcpy.c
 
 The function copies the string of a pointer, including the **'\0'** to other pointer.
+
+## 100-atoi.c
+
+The function converts a string to an integer.
