@@ -11,3 +11,8 @@ The function concatenates two strings, the length of the strings depends of **n*
 ## 2-strncpy.c
 
 The function copies a string.
+
+## 3-strcmp.c
+
+The function compares two strings.
+
