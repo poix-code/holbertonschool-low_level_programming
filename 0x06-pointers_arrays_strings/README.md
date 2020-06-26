@@ -35,3 +35,7 @@ The function encodes a string into **1337**.
 ## 8-rot13.c
 
 The function encodes a string using **rot13**.
+
+## 101-magic.c
+
+The program add one line, the program prints **a[2] = 98**.
