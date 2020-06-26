@@ -24,4 +24,14 @@ The function reverse the content of an array of integers, delimited by **n**.
 
 The function changes all the lowercase letters of a string to uppercase.
 
-## 
+## 6-cap_string.c
+
+The function capitalizes all words of a string.
+
+## 7-leet.c
+
+The function encodes a string into **1337**.
+
+## 8-rot13.c
+
+The function encodes a string using **rot13**.
