@@ -3,3 +3,7 @@
 ## 0-strcat.c
 
 The function concatenates two strings.
+
+## 1-strncat.c
+
+The function concatenates two strings, the length of the strings depends of **n**
