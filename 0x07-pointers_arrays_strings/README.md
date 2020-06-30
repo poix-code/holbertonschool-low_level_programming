@@ -28,4 +28,10 @@ The function locates a substring.
 
 The function prints the chessboard.
 
-## 
+## 8-print_diagsums.c
+
+The function prints the sum of two diagonals of a square matrix of a integers.
+
+## 9-set_string.c
+
+The function sets the value of a pointer to a char.
