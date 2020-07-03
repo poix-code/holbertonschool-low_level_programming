@@ -14,7 +14,7 @@ int is_palindrome(char *s)
 }
 
 /**
- * is_palindrome - Checks if a strings is palindrome.
+ * _strlen - Checks if a strings is palindrome.
  * @s: contains the string.
  * Return: 1 if the number is palindrome, 0 if not.
  */
@@ -29,8 +29,10 @@ int _strlen(char *s)
 }
 
 /**
- * is_palindrome - Checks if a strings is palindrome.
+ * find_pal - Checks if a strings is palindrome.
  * @s: contains the string.
+ * @start: contains the start of the string.
+ * @end: contains the end of the string, except the null character.
  * Return: 1 if the number is palindrome, 0 if not.
  */
 int find_pal(char *s, int start, int end)
