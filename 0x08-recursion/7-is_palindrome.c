@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * is_palindrome - Checks if a strings is palindrome.
+ * is_palindrome - Checks if a strings is palindrome, and return a value.
  * @s: contains the string.
  * Return: 1 if the number is palindrome, 0 if not.
  */
