@@ -13,6 +13,6 @@ int is_prime_number(int n);
 int checkfactor(int num1, int num2);
 int is_palindrome(char *s);
 int find_pal(char *s, int start, int end);
-int _strlen(char *s);
+int _strlen_rec(char *s);
 
 #endif /* HOLBERTON_H */

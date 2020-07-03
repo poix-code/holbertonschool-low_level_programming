@@ -9,22 +9,25 @@ int is_palindrome(char *s)
 {
 	int size;
 
-	size = _strlen(s);
+	size = _strlen_rec(s);
 	return (find_pal(s, 0, size - 1));
 }
 
 /**
- * _strlen - Checks if a strings is palindrome.
+ * _strlen_rec - Checks if a strings is palindrome.
  * @s: contains the string.
  * Return: 1 if the number is palindrome, 0 if not.
  */
-int _strlen(char *s)
+int _strlen_rec(char *s)
 {
 	int i1;
 
 	i1 = 0;
-	while (*(s + i1) != '\0')
-		i1++;
+	if (*s)
+	{
+		i1 = i1 + 1;
+		i1 = i1 + _strlen_rec(s + 1);
+	}
 	return (i1);
 }
 
