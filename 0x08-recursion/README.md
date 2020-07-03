@@ -28,3 +28,6 @@ The functions returns the natural square root of a number.
 
 The function return **1** if the integer is a prime number, if isn't **0**.
 
+## 7-is_palindrome.c
+
+The function returns **1** if a string is a pladrome and **0** if not.
