@@ -4,3 +4,6 @@
 
 A static library is created **libholberton.a** containing some functions.
 
+## create_static_lib.sh
+
+The script creates a static library called **liball.a** from all the files **.c** that are in the current directory.
