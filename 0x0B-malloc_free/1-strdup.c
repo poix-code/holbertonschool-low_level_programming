@@ -32,7 +32,11 @@ int _strlen(char *s)
 {
 	int length;
 
-	for (length = 0; s[length] != '\0'; length++)
-		;
+	length = 0;
+	while (*s != '\0')
+	{
+		length++;
+		s++;
+	}
 	return (length);
 }
