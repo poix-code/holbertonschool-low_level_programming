@@ -19,6 +19,7 @@ char *_strdup(char *str)
 		return (NULL);
 	for (i = 0; i < size; i++)
 		cpy[i] = str[i];
+	cpy[i] = '\0';
 	return (cpy);
 }
 
