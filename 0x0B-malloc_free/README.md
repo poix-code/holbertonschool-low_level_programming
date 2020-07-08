@@ -12,4 +12,7 @@ The function returns a pointer to a newly allocated sapce in memory, wich contai
 
 The function concatenates two strings.
 
-##
+## 3-alloc_grid.c
+
+The function returns a pointer to a 2 dimensional array of integers.
+
