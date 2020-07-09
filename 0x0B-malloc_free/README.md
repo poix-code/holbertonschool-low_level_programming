@@ -16,7 +16,9 @@ The function concatenates two strings.
 
 The function returns a pointer to a 2 dimensional array of integers.
 
-##
+## 4-free_grid.c
+
+The function frees a 2 dimensional array.
 
 ## 5-argstostr.c
 
