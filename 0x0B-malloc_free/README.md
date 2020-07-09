@@ -16,3 +16,8 @@ The function concatenates two strings.
 
 The function returns a pointer to a 2 dimensional array of integers.
 
+##
+
+## 5-argstostr.c
+
+The function concatenates all the arguments of your program.
