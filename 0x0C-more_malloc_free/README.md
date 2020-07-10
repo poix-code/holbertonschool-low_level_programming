@@ -11,3 +11,7 @@ The function concatenates two strings.
 ## 2-calloc.c
 
 The function allocates memory for an array, using **malloc**
+
+## 3-array_range.c
+
+The function creates an array of integers.
