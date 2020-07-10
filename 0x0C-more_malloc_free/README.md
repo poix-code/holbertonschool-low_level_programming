@@ -8,4 +8,6 @@ The function allocates memory using malloc and evaluating malloc using the funct
 
 The function concatenates two strings.
 
-##
+## 2-calloc.c
+
+The function allocates memory for an array, using **malloc**
