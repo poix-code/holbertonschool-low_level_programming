@@ -7,3 +7,8 @@ Creates a header file that defines a macro name with its value.
 ## 1-pi.h
 
 Creates a header file that defines the macro **PI**.
+
+## 2-main.c
+
+The program prints the name of the file it was compiled from.
+
