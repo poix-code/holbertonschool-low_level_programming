@@ -16,4 +16,6 @@ The program prints the name of the file it was compiled from.
 
 The function-macro, computes the absolute value of a number **x**.
 
-## 
+## 4-sum.h
+
+The function computes the sum of the numbers **x** and **y**, using a macro.
