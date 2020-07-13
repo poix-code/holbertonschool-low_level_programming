@@ -12,3 +12,8 @@ Creates a header file that defines the macro **PI**.
 
 The program prints the name of the file it was compiled from.
 
+## 3-function_like_macro.h
+
+The function-macro, computes the absolute value of a number **x**.
+
+## 
