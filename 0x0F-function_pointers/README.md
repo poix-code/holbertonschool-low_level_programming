@@ -8,4 +8,8 @@ The function prints a name.
 
 The function executes a function given as a parameter on each element of an array.
 
+## 2-int_index.c
+
+The function searches an integer.
+
 ## 
