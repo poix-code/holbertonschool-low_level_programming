@@ -10,16 +10,18 @@
  */
 int main(int argc, char **argv)
 {
-	if (argc != 4)
+	int r = 0;
+
+	if (argc == 4)
+	{
+		r = get_op_func(argv[2])(atoi(argv[1]), atoi(argv[3]));
+		printf("%d\n", r);
+	}
+	else
 	{
 		printf("Error\n");
 		exit(98);
 	}
-	if ((argv[2][0] == '/' || argv[2][0] == '%') && atoi(argv[3]) == 0)
-	{
-		printf("Error\n");
-		exit(100);
-	}
-	printf("%d\n", (*get_op_func)(argv[2])(atoi(argv[1]), atoi(argv[3])));
+
 	return (0);
 }
