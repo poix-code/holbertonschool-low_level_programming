@@ -1,11 +1,16 @@
-#ifndef __STRUCT__
-#define __STRUCT__
+#ifndef _3_CALC_H_
+#define _3_CALC_H_
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 /**
  * struct op - definied struct.
  * @op: The operator
  * @f: The function associated
  */
+
 typedef struct op
 {
 	char *op;
@@ -19,4 +24,4 @@ int op_div(int a, int b);
 int op_mod(int a, int b);
 int (*get_op_func(char *s))(int, int);
 
-#endif /* __STRUCT__ */
+#endif /* _3_CALC_H */
