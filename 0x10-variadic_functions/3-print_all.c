@@ -22,7 +22,7 @@ void print_all(const char * const format, ...)
 	};
 	va_start(list, format);
 	i1 = 0;
-	while (format[i1])
+	while (format && format[i1])
 	{
 		i2 = 0;
 		while (index[i2].print)
