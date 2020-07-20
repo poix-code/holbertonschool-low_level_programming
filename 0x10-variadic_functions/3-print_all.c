@@ -10,7 +10,7 @@
 void print_all(const char * const format, ...)
 {
 	unsigned int i1, i2;
-	char *p;
+	char *p = "";
 	va_list list;
 
 	base index[] = {
