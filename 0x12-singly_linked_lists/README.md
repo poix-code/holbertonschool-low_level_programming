@@ -3,3 +3,7 @@
 ## 0-print_list.c
 
 The function prints all elements of a **struct** list.
+
+## 1-list_len.c
+
+The function returns the number of elements of a linked list.
