@@ -9,7 +9,7 @@ void free_listint2(listint_t **head)
 {
 	listint_t *freeNode;
 
-	if (*head == NULL)
+	if (!(head))
 		return (0);
 	while (*head)
 	{
