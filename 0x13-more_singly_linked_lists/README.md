@@ -35,3 +35,12 @@ The function returns the **n**th node of a linked list.
 ## 8-sum_listint.c
 
 The function returns the sum of all the data of a linked list.
+
+## 9-insert_nodeint.c
+
+The function inserts a new node at a given position.
+
+## 10-delete_nodeint.c
+
+The function deletes the node at **index** of a linked list.
+
