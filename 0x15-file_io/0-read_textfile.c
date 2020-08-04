@@ -17,16 +17,16 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (!buffer)
 		return (0);
 	fileOpen = open(filename, O_RDONLY);
-	if (fileOpen == STDERR_FILENO)
+	if (fileOpen == -1)
 		return (0);
 	fileRead = read(fileOpen, buffer, letters);
-	if (fileRead == STDERR_FILENO)
+	if (fileRead == -1)
 	{
 		free(buffer);
 		return (0);
 	}
 	filePrint = write(STDOUT_FILENO, buffer, fileRead);
-	if (filePrint == STDERR_FILENO)
+	if (filePrint == -1)
 	{
 		free(buffer);
 		return (0);
