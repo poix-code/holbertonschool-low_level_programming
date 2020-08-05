@@ -22,8 +22,8 @@ int main(int argc, char *argv[])
 	fileOpen2 = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, 0664);
 	if (fileOpen2 == -1)
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]), exit(99);
-	fileRead = 1024;
-	while (fileRead == 1024)
+	fileOpen1 = 1024;
+	while (fileOpen1 == 1024)
 	{
 		fileRead = read(fileOpen1, buffer, 1024);
 		if (fileRead == -1)
