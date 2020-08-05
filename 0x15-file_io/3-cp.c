@@ -9,7 +9,7 @@
 int main(int argc, char *argv[])
 {
 	char buffer[1024];
-	int fileOpen1, fileOpen2, fileWrite, fileRead, closeFile1, closeFile2, i;
+	int fileOpen1, fileOpen2, fileWrite, fileRead, closeFile1, closeFile2;
 
 	if (argc != 3)
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n"), exit(97);
@@ -22,8 +22,8 @@ int main(int argc, char *argv[])
 	fileOpen2 = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, 0664);
 	if (fileOpen2 == -1)
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]), exit(99);
-	fileOpen1 = 1024;
-	while (fileOpen1 == 1024)
+	fileRead = 1024;
+	while (fileRead == 1024)
 	{
 		fileRead = read(fileOpen1, buffer, 1024);
 		if (fileRead == -1)
