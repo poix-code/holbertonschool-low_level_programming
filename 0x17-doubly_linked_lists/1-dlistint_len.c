@@ -1,15 +1,15 @@
 #include "lists.h"
 
 /**
- * dlistint_len - returns the number of elements in a linked list.
- * @h: points to the head of the linked list.
- * Return: the amount of elements of a linked list.
+ * dlistint_len - The function returns the amount of elements of the list.
+ * @h: Points to the head of the linked list.
+ * Return: the number of elements of the linked list.
  */
 size_t dlistint_len(const dlistint_t *h)
 {
-	size_t i = 0;
+	size_t i;
 
-	for (; h; i++)
+	for (i = 0; h; i++)
 		h = h->next;
 	return (i);
 }
