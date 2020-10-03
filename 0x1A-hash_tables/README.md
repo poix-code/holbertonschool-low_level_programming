@@ -23,3 +23,7 @@ The function retrieves a value of a key.
 ## 5-hash_table_print.c
 
 The function prints a hash table.
+
+## 6-hash_table_delete.c
+
+Deletes a hash table.
