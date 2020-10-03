@@ -19,3 +19,7 @@ The function adds an element to the hash table.
 ## 4-hash_table_get.c
 
 The function retrieves a value of a key.
+
+## 5-hash_table_print.c
+
+The function prints a hash table.
