@@ -1,0 +1,7 @@
+# The Makefile based on the rule 'add' compile a C program
+# Variables: none.
+# Rules.
+.PHONY:all
+all:holberton
+holberton:main.c holberton.c
+	gcc main.c holberton.c -o holberton
