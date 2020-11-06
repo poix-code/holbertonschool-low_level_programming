@@ -11,3 +11,7 @@ Created the first Makefile, in this time with variables.
 ## 2-Makefile
 
 The Makefile have a complete declaration of variables.
+
+## 3-Makefile
+
+Added to the Makefile the **all, clean, oclean, fclean, re** rules.
