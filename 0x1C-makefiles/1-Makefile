@@ -1,0 +1,9 @@
+# Makefile to compile a C program, the executable prints characters.
+# Variables: -CC: the compiler to be used.
+#            -SRC: the .c files.
+CC = gcc
+SRC = main.c holberton.c
+# Rules
+all:holberton
+holberton:$(SRC)
+	$(CC) $(SRC) -o holberton
