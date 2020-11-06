@@ -1,0 +1,13 @@
+# Makefile to compile a C program.
+# Variables: -CC: the compiler to be used.
+#            -SRC: the .c files.
+#            -OBJ: the .o files.
+#            -NAME: The name of the executable.
+CC = gcc
+SRC = main.c holberton.c
+OBJ = main.o holberton.o
+NAME = holberton
+# Rules.
+all:$(NAME)
+$(NAME):$(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
