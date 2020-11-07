@@ -1,0 +1,23 @@
+# Makefile to compile a C program and also deletes files depending of the rules
+# Variables: -CC: the compiler to be used.
+#            -SRC: the .c files.
+#            -OBJ: the .o files.
+#            -NAME: the name of the executable.
+#            -RM: the program to deletes files.
+CC=gcc
+SRC=main.c holberton.c
+OBJ=$(SRC:.c=.o)
+NAME=holberton
+RM=rm -rf
+# Rules.
+all:$(NAME)
+$(NAME):$(SRC) $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+.PHONY: clean oclean fclean $(NAME)
+clean:
+	rm -f *~ $(NAME)
+oclean:
+	rm -f main.o holberton.o
+fclean: clean oclean
+
+re: oclean $(NAME)
