@@ -16,7 +16,7 @@ $(NAME):$(SRC) $(OBJ)
 clean:
 	$(RM) *~ $(NAME)
 oclean:
-	$(RM) main.o holberton.o
+	$(RM) $(OBJ)
 fclean: clean oclean
 
-re: oclean $(NAME)
+re: oclean all
