@@ -15,3 +15,7 @@ The Makefile have a complete declaration of variables.
 ## 3-Makefile
 
 Added to the Makefile the **all, clean, oclean, fclean, re** rules.
+
+## 4-Makefile
+
+A complete Makefile, put the flags of the compiler in a variable.
